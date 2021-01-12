@@ -3,7 +3,10 @@ package com.emse.spring.faircorp.model;
 import javax.persistence.*;
 import java.util.List;
 
+@Entity
+@Table(name = "ROOM")
 public class Room {
+
     @Id
     @GeneratedValue
     private Long id;

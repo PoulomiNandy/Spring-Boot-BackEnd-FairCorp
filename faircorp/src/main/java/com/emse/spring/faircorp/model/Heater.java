@@ -5,6 +5,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "HEATER")
 public class Heater {
+
     @Id
     @GeneratedValue
     private Long id;
